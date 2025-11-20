@@ -248,7 +248,7 @@ public class EjerciciosBucles {
         String nombreVerificar = sc.nextLine();
 
         // Inicializamos al usuario que introduzca el nombre a buscar
-        int posicion = -1;
+        int posicion = -1; // Hacemos que se empiece en menos uno porque aún no lo hemos encontrado
         // Recorremos el array completo para buscar el nombre
         for (int i = 0; i < nombres.length; i++) {
             // Comparamos ignorando mayúsculas/minúsculas
