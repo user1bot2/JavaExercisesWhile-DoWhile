@@ -14,7 +14,7 @@ public class EjerciciosBucles {
         System.out.println("7. FOR-EACH - Contar vocales");
         System.out.println("8. DO-WHILE - Menú interactivo");
         System.out.println("9. FOR tradicional + FOR-EACH - Invertir array");
-        System.out.println("10. WHILE + Arrays - Buscar elemento");
+        System.out.println("10. FOR tradicional  + Arrays - Buscar elemento");
         System.out.println();
         System.out.print("Introduce el número del ejercicio a ejecutar: ");
         int opcion = sc.nextInt();
