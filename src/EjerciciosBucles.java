@@ -237,7 +237,7 @@ public class EjerciciosBucles {
         }
     }
 
-    // 10. WHILE + Arrays - Buscar elemento
+    // 10. FOR tradicional + Arrays - Buscar elemento
     // Array: {"Ana", "Luis", "María", "Carlos", "Pedro"}
     // Pide un nombre y busca en qué posición está. Si no existe, indícalo
     public static void buscarElemento(Scanner sc) {
