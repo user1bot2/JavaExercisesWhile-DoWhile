@@ -25,6 +25,6 @@ public class MenuOpciones {
                 default -> System.out.println("Error siga intentado");
             }
         }while(entradaDatos != 3);
-
+        sc.close();
     }
 }

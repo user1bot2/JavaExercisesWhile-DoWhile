@@ -20,5 +20,6 @@ public class AsegurarEntradaPositiva {
         Scanner sc = new Scanner(System.in);
         int resultado = soloNumPositivo(sc);
         System.out.println(resultado);
+        sc.close();
     }
 }

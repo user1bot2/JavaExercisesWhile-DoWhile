@@ -31,5 +31,6 @@ public class ContarDigitosNumeros {
         int numero = sc.nextInt();
         int resultado = contarDigitos(numero);
         System.out.println(resultado);
+        sc.close();
     }
 }

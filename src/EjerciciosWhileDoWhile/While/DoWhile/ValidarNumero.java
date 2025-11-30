@@ -15,5 +15,6 @@ public class ValidarNumero {
             numUsuario = sc.nextInt();
         }while(numUsuario < 1 || numUsuario > 10); // Si los números están comprendidos entre 1 y 10.
         System.out.println("Terminado");
+        sc.close();
     }
 }

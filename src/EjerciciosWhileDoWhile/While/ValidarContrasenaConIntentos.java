@@ -19,5 +19,6 @@ public class ValidarContrasenaConIntentos {
             System.out.println("Intentos realizados " + intentos);
         }
         System.out.println("La contraseña correcta es " + password + " y los intentos " + intentos);
+        sc.close();
     }
 }

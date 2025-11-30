@@ -15,5 +15,6 @@ public class Juego {
             jugar = sc.next().charAt(0);
         }while(jugar == 's'); // Mientras jugar sea 's', se sigue el bucle
         System.out.println("Saliendo del juego...");
+        sc.close();
     }
 }

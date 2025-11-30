@@ -22,5 +22,6 @@ public class AdivinarNumerosAleatorios {
         }else {
             System.out.println("Has ganado, tu número de intentos son: " + numeroIntento);
         }
+        sc.close();
     }
 }

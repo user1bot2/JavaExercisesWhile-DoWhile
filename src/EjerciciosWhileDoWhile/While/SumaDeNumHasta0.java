@@ -16,5 +16,6 @@ public class SumaDeNumHasta0 {
             sumTotal += numUsuario;
         }
         System.out.println("La suma total es " + sumTotal);
+        sc.close();
     }
 }
